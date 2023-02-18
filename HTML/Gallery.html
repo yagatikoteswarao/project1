@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Gallery</title>
+   <link rel="stylesheet" href="../CSS/navbar.css">
+   <link rel="stylesheet" href="../CSS/Gallery.css">
+   <script src="../Java Script/Gallery.js" defer></script>
+</head>
+<body onload="colo()">
+    <div id="a">
+        <h1 id="heading">Travelled Image Gallery</h1>
+    </div>
+    <div id="bigscreen" class="fullscreenimg" style="display:none;" onclick="imgV()">
+        <img  id="fullImg" src="../Asset/Images/a.jpg">
+        <h1 id="imgheading">Heading</h1>
+        <p id="imgparagraph"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet sequi unde odio at
+             porro earum ducimus molestias, pariatur accusantium ut autem dolor enim magni accusamus?</p>
+    </div>
+    <div id="navbar">
+        <ul id="mainlist">
+            <li class="li"><a href="./index.html">Home</a></li>
+            <li class="li" id="sublistplace">Places
+                <ul id="sublist">
+                    <a href="./Gallery.html"><li class="sli">India</li></a>
+                    <li class="sli">Dubai</li>
+                    <li class="sli">Srilanka</li>
+                    <li class="sli">Thailand</li>
+                    <li class="sli">Korea</li>
+                </ul>
+            </li>
+            <li class="li"><a href="./Aboutus.html">Info</a></li>
+            <li class="li"><a href="./LoginBlog.html">Logout</a></li>
+        </ul>
+    </div>
+        <!-- From Here Body Of Gallery Starts -->
+        <div class="bodyofGallery">
+            <img src="../Asset/Images/a.jpg" onclick="imgK(this.src,'Tiger In Water','Big name brands like beauty and care product companies Unilever Procter &GambleColgate Palmolive and Kao and candymakers Mars Nestlé and Mondelēz are among those directly linked to rainforest destruction in the Leuser Ecosystem')">
+            <img src="../Asset/Images/b.jpg" onclick="imgK(this.src,' Deer In Forest','Deer constitute the second most diverse family of artiodactyla after bovids.[8] Though of a similar build, deer are strongly distinguished from antelopes by their antlers, which are temporary and regularly regrown unlike the permanent horns of bovids')">
+            <img src="../Asset/Images/c.jpg" onclick="imgK(this.src,'cock On Earth','For the culinary use of chickens, see Chicken as food. For other uses, see Chicken (disambiguation) and Chooks (disambiguation).Rooster and Roosters redirect here. For other uses, see Rooster (disambiguation)')">
+            <img src="../Asset/Images/d.jpg" onclick="imgK(this.src,'Butterfly on tree ','Butterflies (Rhopalocera) are insects that have large, often brightly coloured wings, and a conspicuous, fluttering flight. The group comprises the superfamilies Hedyloidea (moth-butterflies in the Americas) and Papilionoidea. Butterfly fossils date to the Paleocene, about 56 million years ago.')">
+            <img src="../Asset/Images/e.jpg" onclick="imgK(this.src,'Cat on House','The cat (Felis catus) is a domestic species of small carnivorous mammal.[1][2] It is the only domesticated species in the family Felidae and is commonly referred to as the domestic cat or house cat to distinguish it from the wild members of the family.')">
+            <img src="../Asset/Images/f.jpg" onclick="imgK(this.src,'Parrot On Tree','Parrots, also known as psittacines ,[1][2] are birds of the roughly 398 species[3] in 92 genera comprising the order Psittaciformes (/ˈsɪtəsɪfɔːrmiːz/), found mostly in tropical and subtropical regions')">
+            <img src="../Asset/Images/g.jpg" onclick="imgK(this.src,'Dog At street','The dog (Canis familiaris[4][5] or Canis lupus familiaris[5]) is a domesticated descendant of the wolf. Also called the domestic dog, it is derived from the extinct Pleistocene wolf,[6][7] and the modern wolf is the dog s nearest living relative')">
+            <img src="../Asset/Images/h.jpg" onclick="imgK(this.src,'Sheep At Field','Sheep or domestic sheep (Ovis aries) are domesticated, ruminant mammals typically kept as livestock. Although the term sheep can apply to other species in the genus Ovis, in everyday usage it almost always refers to domesticated sheep')">
+        </div>   
+</body>
+</html>

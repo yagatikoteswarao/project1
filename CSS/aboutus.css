@@ -1,0 +1,140 @@
+*
+{
+    padding:0px;
+    margin:0px;
+}
+#Header
+{
+    Width:100%;
+    height:600px;
+    overflow: hidden;
+    position:relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 5px 10px black;
+}
+#headerVid
+{
+    width:100%;
+    position:absolute;
+    top:0px;
+    z-index:0;
+}
+#headerHeading
+{
+    position:absolute;
+    z-index: 1;
+    font-size: 40px;
+    letter-spacing: 20px;
+    color:white;
+    text-shadow: 2px 2px 10px black;
+}
+#iconOfSocial
+{
+    width:250px;
+    height:50px;
+    position:absolute;
+    z-index: 1;
+    font-size: 40px;
+    color:white;
+    text-shadow: 0px 0px 10px black;
+    right:20px;
+    bottom:10px;
+}
+i{
+    padding-left: 20px;
+    color:white;
+}
+i:hover
+{
+    color:rgba(9, 175, 175, 0.453)
+}
+#webbody
+{
+    height:400px;
+    width:100%;
+    background-image: linear-gradient(pink,purple);
+}
+#address
+{
+    position:absolute;
+    top:95%;
+    left:5%;
+    width:44%;
+    height:300px;
+    float:left;
+    background-color: rgba(255, 192, 203, 0.454);
+    box-shadow: 0px 0px 10px purple;
+    border-radius: 10px;
+}
+#maps
+{
+    position:absolute;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    top:95%;
+    right:5%;
+    width:44%;
+    height:300px;
+    background-color: aquamarine;
+    box-shadow: 0px 0px 10px rgba(25, 0, 139, 0.375);
+    border-radius: 10px;
+    overflow: hidden;
+}
+iframe
+{
+    width:100%;
+    height:310px;
+}
+iframe:hover
+{
+    width:120%;
+    height:330px;
+}
+#addheading
+{
+    padding-top: 20px;
+    text-align: center;
+    color:purple;
+}
+#addpara
+{
+    width:90%;
+    font-size: 24px;
+    padding-top: 50px;
+    padding-left: 20px;
+    text-align: center;
+}
+#foooter
+{
+    width: 100%;
+    height:120px;
+    background-color: rgba(128, 128, 128, 0.156);
+}
+#iconsOfSocialFooter
+{
+    width:250px;
+    height:50px;
+    position:relative;
+    z-index:1;
+    font-size: 40px;
+    color:white;
+    text-shadow: 0px 0px 10px black;
+    float:right;
+    top:32px;
+}
+#copymessage
+{
+    float:left;
+    color:black;
+    z-index:1;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 24px;
+}
+#d2
+{
+    background-color: rgba(128, 128, 128, 0);
+}

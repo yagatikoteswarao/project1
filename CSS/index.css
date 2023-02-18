@@ -1,0 +1,108 @@
+*
+{
+    margin: 0px;
+    padding:0px;
+}
+#header
+{
+    z-index: 1;
+    position:relative;
+    letter-spacing: 25px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:transparent;
+    font-size: 0px;
+    width:100%;
+    height:400px;
+    background-image: url('../Asset/Images/lll.png'),url('../Asset/Images/lll.png'),url('../Asset/Images/person\ Mountain.jpg');
+    background-size:  50% 400px , 50% 400px,100% 600px;
+    background-position:  110px 20px ,610px 20px,0px 0px;
+    background-repeat: no-repeat,no-repeat,no-repeat;
+    box-shadow:0px 10px 5px gray;
+    transition: background-position 3s,color 4s, text-shadow 3s ;
+}
+#header:hover
+{
+    font-size:30px;
+    color:lawngreen;
+    text-shadow: 2px 2px 5px skyblue,-2px -2px 5px slateblue,0px 0px 10px red;
+    background-position: -330px 20px ,1050px 20px,0px -180px ;
+}
+.videolayoutleft
+{
+    float:left;
+    width:100%;
+    height:400px;
+    background-color:purple;
+    position:relative;
+}
+.leftvideo
+{
+    float:left;
+    width:380px;
+    border-radius: 30px;
+    position:absolute;
+    top:80px;
+    left:80px;
+}
+.rightheading
+{
+    font-size: 40px;
+    position:absolute;
+    right:28%;
+    text-shadow: 4px 4px rgb(233, 72, 13),6px 6px white,10px 10px green;
+}
+.rightparagraph
+{
+    color:white;
+    text-align: justify;
+    text-indent: 60px;
+    width:50%;
+    position:absolute;
+    right:4%;
+    top:20%;
+    font-size: 30px;
+}
+.videolayoutright
+{
+    float:right;
+    width:100%;
+    height:400px;
+    background-color:purple;
+    position:relative;
+}
+.rightvideo
+{
+    float:right;
+    width:380px;
+    border-radius: 30px;
+    position:absolute;
+    top:80px;
+    left:970px;
+}
+.Leftheading
+{
+    font-size: 40px;
+    position:absolute;
+    top:20px;
+    left:20%;
+    text-shadow:2px 2px yellow,6px 6px white,10px 10px green;;
+}
+.Leftparagraph
+{
+    color:white;
+    text-align: justify;
+    text-indent: 60px;
+    width:50%;
+    position:absolute;
+    left:2%;
+    top:20%;
+    font-size: 30px;
+}
+#webbody
+{
+    width:100%;
+    height:1700px;
+    background-color: purple;
+}
